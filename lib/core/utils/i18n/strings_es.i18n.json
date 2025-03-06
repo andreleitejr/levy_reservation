@@ -1,0 +1,12 @@
+{
+  "reservation": {
+    "header": {
+      "title": "Reservación"
+    },
+    "inactive": {
+      "title": "No hay boletos disponibles",
+      "description": "No tienes boletos. Realiza una compra y regresa.",
+      "buttonText": "Haz clic aquí para comprar tus boletos"
+    }
+  }
+}
