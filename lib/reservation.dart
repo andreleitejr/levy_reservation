@@ -8,6 +8,7 @@ export 'package:levy_reservation/features/reservation/domain/usecases/get_reserv
 export 'package:levy_reservation/features/reservation/domain/usecases/get_reservation_usecase_impl.dart';
 export 'package:levy_reservation/features/reservation/presentation/notifiers/reservation_notifier.dart';
 export 'package:levy_reservation/features/reservation/presentation/pages/reservation_page.dart';
+export 'package:levy_reservation/features/reservation/presentation/providers/reservation_providers.dart';
 export 'package:levy_reservation/features/reservation/presentation/states/reservation_state.dart';
 export 'package:levy_reservation/features/reservation/presentation/utils/reservation_translation.dart';
 export 'package:levy_reservation/features/reservation/presentation/widgets/reservation_widget.dart';

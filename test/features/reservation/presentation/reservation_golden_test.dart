@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:levy_reservation/features/reservation/presentation/utils/reservation_translation.dart';
 import 'package:levy_reservation/features/reservation/presentation/widgets/reservation_widget.dart';
-import 'package:levy_shared_entities/entities.dart';
+import 'package:levy_shared_entities/shared_entities.dart';
 import 'package:levy_test_utils/test_utils.dart';
 import 'package:levy_theme/core/theme/theme.dart';
 void main() {

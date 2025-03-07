@@ -1,6 +1,6 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:levy_reservation/features/reservation/presentation/states/reservation_state.dart';
-import 'package:levy_shared_entities/entities.dart';
+import 'package:levy_shared_entities/shared_entities.dart';
 
 final class ReservationNotifier extends StateNotifier<ReservationState> {
   ReservationNotifier() : super(ReservationState.loading());

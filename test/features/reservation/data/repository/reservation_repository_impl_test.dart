@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:levy_reservation/features/reservation/data/datasources/reservation_datasource.dart';
 import 'package:levy_reservation/features/reservation/data/repositories/reservation_repository_impl.dart';
-import 'package:levy_shared_entities/entities.dart';
+import 'package:levy_shared_entities/shared_entities.dart';
 import 'package:mocktail/mocktail.dart';
 
 final class ReservationDataSourceMock extends Mock implements ReservationDataSource {}
