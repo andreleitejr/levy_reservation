@@ -12,6 +12,10 @@ import 'package:sqflite/sqflite.dart';
 final class ReservationDataSourceImpl implements ReservationDataSource {
   late Database _database;
 
+  ReservationDataSourceImpl() {
+    _initializeDatabase();
+  }
+
   Future<void> _initializeDatabase() async {
     final dbPath = await getDatabasesPath();
 
@@ -35,10 +39,6 @@ final class ReservationDataSourceImpl implements ReservationDataSource {
     );
 
     debugPrint('Database is initialized...');
-  }
-
-  ReservationDataSourceImpl() {
-    _initializeDatabase();
   }
 
   @override
